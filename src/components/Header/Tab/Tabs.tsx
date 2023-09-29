@@ -14,7 +14,7 @@ const navList: IList[] = [
     {label: 'Раздел3', content: 'Раздел 3-раздел 3 вкладка 3 '}
 ]
 
-export const Tabs = () => {K
+export const Tabs = () => {
     const [tabIndex, setTabIndex] = useState(0);
     const [clickTab, setClickTab] = useState(false)
     const openTab = (e: any): void => {
