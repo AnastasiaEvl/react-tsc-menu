@@ -1,0 +1,11 @@
+.nav_menu {
+    width: 80%;
+}
+.nav_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.nav_link{
+    color: white;
+}

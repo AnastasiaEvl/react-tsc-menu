@@ -1,0 +1,37 @@
+.burger_btn {
+    cursor: pointer;
+}
+
+.burger_btn_inactive {
+    display: none;
+}
+
+.burger_btn_active {
+    background: white;
+    margin-top: 0.6rem;
+    height: 0.2rem;
+    width: 2rem;
+    display: block;
+    position: relative;
+}
+.burger_btn_active:after {
+    background: white;
+    height: 0.2rem;
+    width: 2rem;
+    display: block;
+    position: absolute;
+    content: '';
+    left: 0;
+    top:  0.55rem;
+}
+
+.burger_btn_active:before{
+    background: white;
+    height: 0.2rem;
+    width: 2rem;
+    display: block;
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom:  0.55rem;
+}

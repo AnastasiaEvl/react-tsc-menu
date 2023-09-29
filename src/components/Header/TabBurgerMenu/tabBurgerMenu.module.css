@@ -1,0 +1,54 @@
+.burger_nav_active {
+    background-color: #202021;
+    position: fixed;
+    z-index: 2;
+    right: 0;
+    width: fit-content;
+    height: fit-content;
+    padding: 0 1rem 1rem;
+    border-radius: 0 0 0 1rem;
+    display: block;
+}
+.burger_nav_inactive {
+    display: none;
+}
+
+.nav_close_btn {
+    position: absolute;
+    top: 0;
+    right: 1.5rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+}
+
+.nav_close_btn::before,
+.nav_close_btn::after {
+    content: '';
+    position: absolute;
+    top: 0.6rem;
+    display: block;
+    width: 1.5rem;
+    height: 0.2rem;
+    background: white;
+}
+
+.nav_close_btn::before {
+    transform: rotate(45deg);
+}
+
+.nav_close_btn::after {
+    transform: rotate(-45deg);
+}
+
+.nav_list {
+    padding-top: 3rem;
+}
+
+.nav_link{
+    color: white;
+}
+.nav_list_item {
+    padding-top: 0.5rem;
+}
+

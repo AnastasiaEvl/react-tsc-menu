@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+  width: 100vw;
+}
+li a{
+  cursor: pointer;
+  text-decoration: none;
+  transition: 1s;
+}
+ul{
+  list-style-type: none;
+  padding: 0;
+}
+li a:hover{
+  text-decoration: none;
+  color: #00fbf4;
+  transition: 1s;
+}
+
